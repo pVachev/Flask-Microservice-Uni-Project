@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+        <a href="{{url_for('course_bluep.get_all')}}">List of all courses</a> 
+        <a href="{{url_for('student_bluep.get_all')}}">List of all students</a> 
+        <a href="{{url_for('event_bluep.get_all')}}">List of all events</a> 
+
+        {% block body %}{% endblock %}
+
+
+</body>
+</html> 
